@@ -7,7 +7,7 @@
 # SPDX-FileCopyrightText: 2021-2024 Mirian Margiani
 # SPDX-License-Identifier: CC0-1.0
 #
-# @@@ keep this line: based on template v0.2.0
+# @@@ keep this line: based on template v1.0.0
 #
 
 # current semantic version number, cf. https://semver.org
@@ -35,11 +35,11 @@ description: This module provides TODO.
 attribution: 2018-2024 Mirian Margiani
 
 # colon-separated list of this module's current maintainer(s)
-maintainers: ichthyosaurus
+maintainers: Mirian Margiani
 
 # colon-separated list of this module's author(s) and contributors
 # this list should be exhaustive
-authors: ichthyosaurus
+authors: Mirian Margiani
 
 # the module's SPDX license id, cf. https://spdx.org/licenses/
 mainLicenseSpdx: GPL-3.0-or-later
