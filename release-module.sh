@@ -6,9 +6,9 @@
 #
 # See https://github.com/Pretty-SFOS/opal for more information.
 #
-# @@@ keep this line: based on template v0.9.0
+# @@@ keep this line: based on template v1.0.0
 #
-c__FOR_RELEASE_LIB__="0.9.0"
+c__FOR_RELEASE_LIB__="1.0.0"
 
 # Run this script from the module's root directory.
 source ../opal/opal-development/opal-release-module.sh
