@@ -107,7 +107,7 @@ sed -i "s/Brief description of the module./${cBRIEF//\//\\\/}/g;" \
 sed -i "s/Longer description of which problem the module solves, and how it makes life easier./${cDESCRIPTION//\//\\\/}/g;" \
     README.md
 
-sed -i "s/Copyright (C)  Mirian Margiani/Copyright (C)  $cYEAR ${cAUTHOR//\//\\\/}/g" \
+sed -i "s/Copyright (C)  Mirian Margiani/Copyright (C)  ${cAUTHOR//\//\\\/}/g" \
     README.md
 
 sed -i "s/- author: Mirian Margiani/- author: ${cAUTHOR//\//\\\/}/g" \
