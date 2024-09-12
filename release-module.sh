@@ -40,7 +40,7 @@ parse_arguments "$@"
 #         └── private   - private C++ files
 
 # Define in cTRANSLATE which files and directories must be scanned for
-# translatable string. Note: translations are built from the original sources,
+# translatable strings. Note: translations are built from the original sources,
 # independent of the files marked for distribution in copy_files.
 cTRANSLATE=(Opal)  # options: "Opal" and/or "src"
 
