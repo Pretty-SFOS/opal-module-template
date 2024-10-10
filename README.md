@@ -13,7 +13,8 @@ Copy this repository to setup a new Opal module.
 4. Add an example to `README.md`.
 5. Update `release-module.sh`: if your module has no translations, set `cTRANSLATE=(Opal)` to `cTRANSLATE=()`
 5. Remove this introduction from `README.md`.
-6. Run `./release-module.sh` to build docs and create a release bundle.
+6. Add screenshots to `doc/` and update `README.md` accordingly.
+7. Run `./release-module.sh` to build docs and create a release bundle.
 
 <hr>
 
@@ -39,6 +40,16 @@ MyComponent {
 ## Screenshots
 
 Screenshots can be found in the [doc](doc/) directory.
+
+<!--
+| 1. | 2. |
+|-|-|
+| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> |
+
+| 1. | 2. | 3. |
+|-|-|-|
+| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> | <img src="./doc/screenshot-03.webp" width="600" /> |
+-->
 
 ## How to use
 
