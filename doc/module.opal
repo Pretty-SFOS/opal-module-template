@@ -4,10 +4,10 @@
 # Lines not starting with a known keyword (i.e. 'name: ') will be ignored.
 # One line per value.
 #
-# SPDX-FileCopyrightText: 2021-2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2021-2025 Mirian Margiani
 # SPDX-License-Identifier: CC0-1.0
 #
-# @@@ keep this line: based on template v1.0.0
+# @@@ keep this line: based on template v1.0.1
 #
 
 # current semantic version number, cf. https://semver.org
@@ -30,9 +30,9 @@ briefDescription: QML module for TODO in Sailfish apps
 # Opal Gallery. Line breaks can included with '\n' but should be avoided.
 description: This module provides TODO.
 
-# attribution string for the whole module, in the same form as a SPDX
-# FileCopyrightText entry.
-attribution: 2018-2024 Mirian Margiani
+# colon-separated list of attribution strings for the whole module, in the same
+# form as SPDX FileCopyrightText entries
+attribution: 2018-2025 Mirian Margiani
 
 # colon-separated list of this module's current maintainer(s)
 maintainers: Mirian Margiani
