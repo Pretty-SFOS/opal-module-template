@@ -2,11 +2,11 @@
 #
 # This file is part of Opal and has been released into the public domain.
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2021-2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2021-2025 Mirian Margiani
 #
 # See https://github.com/Pretty-SFOS/opal for more information.
 #
-# @@@ keep this line: based on template v1.0.0
+# @@@ keep this line: based on template v1.0.1
 #
 c__FOR_RELEASE_LIB__="1.0.0"
 
@@ -35,9 +35,7 @@ parse_arguments "$@"
 # ├── Opal              - QML module root
 # │   └── MyModule      - public QML files
 # │       └── private   - private QML files
-# └── src               - C++ source root
-#     └── mymodule      - public C++ source and header files
-#         └── private   - private C++ files
+# └── src               - C++ source and header files
 
 # Define in cTRANSLATE which files and directories must be scanned for
 # translatable strings. Note: translations are built from the original sources,
