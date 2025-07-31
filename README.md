@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+SPDX-FileCopyrightText: 2023-2025 Mirian Margiani
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
@@ -7,14 +7,15 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 Copy this repository to setup a new Opal module.
 
-1. Create a local copy of the contents of this repository.
-2. Run `setup.sh` and follow the instructions.
-3. Import your source code to `Opal/MyModule/` and write documentation.
-4. Add an example to `README.md`.
-5. Update `release-module.sh`: if your module has no translations, set `cTRANSLATE=(Opal)` to `cTRANSLATE=()`
-5. Remove this introduction from `README.md`.
-6. Add screenshots to `doc/` and update `README.md` accordingly.
-7. Run `./release-module.sh` to build docs and create a release bundle.
+- [ ] Create a local copy of the contents of this repository.
+- [ ] Run `setup.sh` and follow the instructions.
+- [ ] Import your source code to `Opal/MyModule/` and/or `src/` and write documentation.
+- [ ] Add an example to `README.md`.
+- [ ] Update `release-module.sh`: if your module has no translations, set `cTRANSLATE=(Opal)` to `cTRANSLATE=()`
+- [ ] Remove this introduction from `README.md`.
+- [ ] Remove the `src/` or `Opal/` directories if your module is fully written in QML or in C++.
+- [ ] Add screenshots to `doc/` and update `README.md` accordingly.
+- [ ] Run `./release-module.sh` to build the docs and create a release bundle.
 
 <hr>
 
